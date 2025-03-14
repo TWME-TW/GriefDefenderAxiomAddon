@@ -19,12 +19,18 @@ public class GriefDefenderIntegration implements Integration.CustomIntegration {
         if (!Bukkit.getPluginManager().isPluginEnabled("GriefDefender")) {
             return true;
         }
+        if (player.hasPermission("griefdefenderaxiomaddon.bypass")) {
+            return true;
+        }
         return GriefDefenderIntegrationImpl.isBuilder(player,location);
     }
 
     @Override
     public SectionPermissionChecker checkSection(Player player, World world, int i, int i1, int i2) {
         if (!Bukkit.getPluginManager().isPluginEnabled("GriefDefender")) {
+            return SectionPermissionChecker.ALL_ALLOWED;
+        }
+        if (player.hasPermission("griefdefenderaxiomaddon.bypass")) {
             return SectionPermissionChecker.ALL_ALLOWED;
         }
         return GriefDefenderIntegrationImpl.checkSection(player, world, i, i1, i2);

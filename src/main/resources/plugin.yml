@@ -7,3 +7,5 @@ description: GriefDefender Axiom Addon
 depend:
   - AxiomPaper
   - GriefDefender
+permissions:
+  - griefdefenderaxiomaddon.bypass
