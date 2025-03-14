@@ -1,0 +1,9 @@
+name: GriefDefenderAxiomAddon
+version: '0.0.1'
+main: dev.twme.griefDefenderAxiomAddon.GriefDefenderAxiomAddon
+api-version: '1.21'
+author: TWME
+description: GriefDefender Axiom Addon
+depend:
+  - AxiomPaper
+  - GriefDefender
