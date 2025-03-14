@@ -28,7 +28,7 @@ GriefDefenderAxiomAddon allows player to utilize Axiom's powerful functionality 
 
 ## Configuration
 
-No any configuration needed.
+No configuration needed.
 
 ## Usage
 
@@ -41,6 +41,10 @@ Once installed, the addon works automatically to integrate GriefDefender claim p
 ## Support
 
 If you encounter any issues or have feature suggestions, please create an issue on our GitHub repository.
+
+## Trademarks
+
+GriefDefender and Axiom are trademarks of their respective owners. This project is not affiliated with, endorsed by, or connected to the owners of these trademarks. All trademarks are the property of their respective owners. This project does not claim any ownership over these trademarks and uses them solely for identification purposes.
 
 ## License
 
