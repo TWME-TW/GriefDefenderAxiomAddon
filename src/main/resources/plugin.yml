@@ -8,4 +8,6 @@ depend:
   - AxiomPaper
   - GriefDefender
 permissions:
-  - griefdefenderaxiomaddon.bypass
+  griefdefenderaxiomaddon.bypass:
+    description: Bypass GriefDefender claims protection when using Axiom
+    default: op
