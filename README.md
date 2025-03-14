@@ -43,3 +43,5 @@ Once installed, the addon works automatically to integrate GriefDefender claim p
 If you encounter any issues or have feature suggestions, please create an issue on our GitHub repository.
 
 ## License
+
+GriefDefenderAxiomAddon is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
