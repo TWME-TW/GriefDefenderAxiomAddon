@@ -24,7 +24,7 @@ GriefDefenderAxiomAddon allows player to utilize Axiom's powerful functionality 
 1. Download the latest version of GriefDefenderAxiomAddon
 2. Place the .jar file in your server's `plugins` folder
 3. Restart your server
-4. Configure the addon as needed in the configuration file
+4. Enjoy!
 
 ## Configuration
 
